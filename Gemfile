@@ -26,7 +26,7 @@ group :test do
   if RUBY_VERSION < "1.9.2"
     gem "sanitize", ">= 2", "< 2.0.4", :require => false
 
-    gem "charlock_holmes", :git => "git@github.com:brianmario/charlock_holmes.git",
+    gem "charlock_holmes", :git => "https://github.com/brianmario/charlock_holmes.git",
                            :ref => "970f93fa832528c7b37f9b22c31a9b240455963a",
                            :require => false
   else
