@@ -1,4 +1,5 @@
 require "test_helper"
+require "html/pipeline/autolink"
 
 AutolinkFilter = HTML::Pipeline::AutolinkFilter
 
