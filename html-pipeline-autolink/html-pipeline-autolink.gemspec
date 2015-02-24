@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Html::Pipeline::Autolink::VERSION
   spec.authors       = ["Jerry Cheung"]
   spec.email         = ["jollyjerry@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{HTML::Pipeline::AutolinkFilter}
+  spec.description   = %q{Auto links urls in HTML}
+  spec.homepage      = "https://github.com/jch/html-pipeline"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
