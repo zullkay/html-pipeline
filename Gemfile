@@ -10,7 +10,6 @@ end
 
 group :test do
   gem "minitest",           "~> 5.3"
-  gem "rinku",              "~> 1.7",   :require => false
   gem "gemoji",             "~> 1.0",   :require => false
   gem "RedCloth",           "~> 4.2.9", :require => false
   gem "github-markdown",    "~> 0.5",   :require => false
